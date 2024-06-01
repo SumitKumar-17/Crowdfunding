@@ -11,7 +11,21 @@ For working with the repository,
 
 1. Clone the repository
 
+```python
+git clone https://github.com/SumitKumar-17/Crowdfunding.git
+```
+
 2. Go to the web3 directory and run the command 
+
+    Rename the .env.example file to .env and add the following variables
+
+    ```python
+    PRIVATE_KEY=<your_private_key_metamask>
+    ```
+
+
+3. Go to the web3 directory and run the command 
+
 
 ```python
 npm install
@@ -23,7 +37,7 @@ npm run deploy
 
 A thirdweb server will be started and the contract will be deployed. Copy the contract address and paste it in the client/src/context/index.jsx file.
 
-3. Go to the client directory and run the command
+4. Go to the client directory and run the command
 
 ```python
 npm install
