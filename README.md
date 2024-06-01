@@ -1,7 +1,35 @@
-# Build and Deploy a Web3 Crowdfunding Platform (Kickstarter) As Your First Blockchain Application
-![Crowdfunding](https://i.ibb.co/k6pj0Qt/htum-6.png)
+# Crowdfunding
 
-### [🌟 Become a top 1% Next.js 13 developer in only one course](https://jsmastery.pro/next13)
-### [🚀 Land your dream programming job in 6 months](https://jsmastery.pro/masterclass)
+With connected to the blockchain, metamask pairing, interaction with smart contracts, sending Ethereum through the blockchain network, and writing solidity code.
 
-### Launch your development career with project-based coaching on [JS Mastery Pro](https://www.jsmastery.pro).
+The client directory contains the frontend code .
+
+The web3 directory has the Smart Contract code. It is deployed using the thirdweb frmaework.
+
+
+For working with the repository,
+
+1. Clone the repository
+
+2. Go to the web3 directory and run the command 
+
+```python
+npm install
+```
+
+```python
+npm run deploy
+```
+
+A thirdweb server will be started and the contract will be deployed. Copy the contract address and paste it in the client/src/context/index.jsx file.
+
+3. Go to the client directory and run the command
+
+```python
+npm install
+```
+
+```python
+npm start
+```
+
